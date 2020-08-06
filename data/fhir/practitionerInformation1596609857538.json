@@ -1,0 +1,114 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:e7fad7ae-a34f-3679-80b6-fdab44d114fa",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "e7fad7ae-a34f-3679-80b6-fdab44d114fa",
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 50
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999999939"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Carter549",
+            "given": [
+              "Almeta56"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "Almeta56.Carter549@example.com",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "30 LOCUST STREET"
+            ],
+            "city": "NORTHAMPTON",
+            "state": "MA",
+            "postalCode": "01060",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e037a8ad-e20b-372c-b490-afeb5d4ce8e3",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "e037a8ad-e20b-372c-b490-afeb5d4ce8e3",
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 31
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999983649"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Tromp100",
+            "given": [
+              "Xavier983"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "Xavier983.Tromp100@example.com",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "191 LOWER ST"
+            ],
+            "city": "SHELBURNE FLS",
+            "state": "MA",
+            "postalCode": "01370-9402",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner"
+      }
+    }
+  ]
+}
